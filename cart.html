@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="cart.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="cart.js"></script>
+
+</head>
+<body>
+
+
+<div>
+  <a href="Home Page.html"><img src="candylogo.PNG" alt="logo" style="float: left;"></a>
+  <h1>The Candy Cravers</h1>
+</div>
+
+<!--navbar-->
+<nav class="navbar navbar-inverse" style="align:center">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="About.html">About</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home Page.html">Home</a></li>
+      <li><a href="Candy.html">Candy</a></li>
+      <li><a href="Chocolate.html">Chocolate</a></li>
+      <li><a href="Cookies.html">Cookies</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Cart</a></li>
+    </ul>
+  </div>
+</nav>
+<!--end navbar-->
+
+
+<form id="checkout" action="finished.html" >
+
+<div class="container">
+
+<h3>Shipping Address</h3>
+
+    <label for="fname">Full Name:</label>
+        <input type="text" name="fname"  id="fname" placeholder="John Doe">
+        <span>&nbsp;</span><br>
+
+    <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="john@example.com">
+        <span>&nbsp;</span><br>
+
+    <label for="dob">DOB:</label>
+        <input type="date" id="dob">
+        <span>&nbsp;</span><br>
+
+    <label for="street">Street:</label>
+        <input type="text" name="street" id="street" placeholder="542 W. 15th Street">
+        <span>&nbsp;</span><br>
+
+    <label for="dob">City:</label>
+        <input type="text" name="city" id="city" placeholder="Brooklyn">
+        <span>&nbsp;</span><br>
+
+    <label for="state">State:</label>
+        <input type="text" name="state" id="state" placeholder="NY">
+        <span>&nbsp;</span><br>
+
+    <label for="zip">Zip:</label>
+      <input type="text" name="zip" id="zip" placeholder="12345">
+      <span>&nbsp;</span><br>
+
+<h3>Payment Information</h3>
+
+
+    <label for="cname">Name on Card</label>
+      <input type="text" id="cname" name="cname" placeholder="John More Doe">
+      <span>&nbsp;</span><br>
+
+    <label for="cc_num">Credit card</label>
+      <input type="text" id="cc_num" name="cc_num" placeholder="1111-2222-3333-4444">
+      <span>&nbsp;</span><br>
+
+    <label for="cc_date">Exp Month</label>
+      <input type="text" id="cc_date" name="cc_date" placeholder="MM/YYYY">
+      <span>&nbsp;</span><br>
+
+
+    <input type="submit" id="save" value="Continue to checkout" class="btn">
+
+
+</div>
+</form>
+
+<!-- footer -->
+<br><br><br>
+<footer>
+    <div class="panel-footer">Follow us &nbsp;
+      <a href="#"><i class="fa fa-dribbble dribblecolor"></i></a> 
+      <a href="#"><i class="fa fa-twitter twittercolor"></i></a>
+      <a href="#"><i class="fa fa-instagram instagramcolor"></i></a>   
+      <a href="#"><i class="fa fa-linkedin bluecolor"></i></a>  
+      <a href="#"><i class="fa fa-facebook facebookcolor"></i></a> 
+    </div>
+</footer>
+
+</body>
+</html>

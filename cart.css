@@ -1,0 +1,88 @@
+footer {
+    text-align: center;
+    color: #ff0077;
+    font-size: 20px;
+    clear: both;
+    height: 40px;
+    bottom: 0;
+    width: 100%
+    margin: 35px 0;
+    flex: 1;
+}  
+
+h1 {
+   text-align: center;
+   color: #ff0077;
+   font-size: 72px;
+   font-family: 'aclonica';
+   font-weight: bolder;
+}
+
+h2 {
+    font-size: 120%;
+    margin-bottom: .25em;
+}
+
+h3 {
+     font-weight: bolder;
+}
+
+label {
+    float: left;
+    width: 9em;
+}
+
+input {
+  border: .5px solid #ff0077;
+  background-color: white;
+  color: #ff0077;
+  padding: 3px;
+}
+
+#save {
+  border: 1px solid #ff0077;
+}
+
+#save:hover {
+  background-color: #ff0077;
+  color: white;
+}
+
+input, select {
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+span { color: #ff0077; }
+
+label {
+  color: #ff0077;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #dcdce2;
+  padding: 15px;
+}
+
+.bluecolor {
+  color: rgb(0,112,192);
+}
+.facebookcolor {
+   color: #3b5998;
+}
+.twittercolor {
+   color: #38A1F3;
+}
+.dribblecolor {
+   color: #ea4c89;
+}
+.instagramcolor {
+  background-image: -webkit-gradient( linear, left top, right top, 
+                     color-stop(0.45, purple), color-stop(0.6, red), color-stop(0.75, pink),
+                     color-stop(0.9, yellow), color-stop(1, blue) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

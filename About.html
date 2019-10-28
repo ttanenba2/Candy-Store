@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.panel-footer {
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:50px;
+}</style>
+</head>
+<body>
+
+<div>
+  <a href="Home Page.html"><img src="candylogo.PNG" alt="logo" style="float: left;"></a>
+  <h1>The Candy Cravers</h1>
+</div>
+
+  <!--navbar on top-->
+<nav class="navbar navbar-inverse" style="align:center">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="active navbar-brand" href="#">About</a>
+    </div>
+  <ul class="nav navbar-nav">
+      <li><a href="Home page.html">Home</a></li>
+      <li><a href="Candy.html">Candy</a></li>
+      <li><a href="Chocolate.html">Chocolate</a></li>
+      <li><a href="Cookies.html">Cookies</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </div>
+</nav>
+<!--end navbar-->
+
+<h2 style="text-align: center;color: #ff0077; font-size: 5pc;">About Us</h2>
+
+<button class="accordion">Our Goal</button>
+<div class="panel">
+  <p>Our goal is to provide customers with a simple way of ordering the sweets that they desire. </p>
+</div>
+
+<button class="accordion">Shipping and Returns </button>
+<div class="panel">
+  <p>We offer free standard shipping in the U.S. with a minimum purchase of $25</p>
+</div>
+
+<button class="accordion">Contact Information</button>
+<div class="panel">
+  <p>Email us at : cravers@thecandycravers.com</p>
+  <p>Call us at : 1800-2-CANDY</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("open");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<!-- footer -->
+<br><br><br>
+<footer>
+    <div class="panel-footer">Follow us &nbsp;
+      <a href="#"><i class="fa fa-dribbble dribblecolor"></i></a> 
+      <a href="#"><i class="fa fa-twitter twittercolor"></i></a>
+      <a href="#"><i class="fa fa-instagram instagramcolor"></i></a>   
+      <a href="#"><i class="fa fa-linkedin bluecolor"></i></a>  
+      <a href="#"><i class="fa fa-facebook facebookcolor"></i></a> 
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+footer {
+    text-align: center;
+    color: #ff0077;
+    font-size: 20px;
+    clear: both;
+    height: 40px;
+    bottom: 0;
+    width: 100%
+    margin: 35px 0;
+    flex: 1;
+}  
+
+p {
+  color: #ff0077;
+}
+    
+h1 {
+   text-align:center;
+   color: #ff0077;
+   font-size: 72px;
+   font-family: 'aclonica';
+   font-weight: bolder;
+}
+
+.card {
+   margin: 0 auto;
+   float: none;
+   margin-bottom: 10px;
+   width: 100%;
+}
+
+li {
+	color: white;
+  width: 100%;              
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+  padding: 0 4px; 
+}    
+        
+ul{
+    display:flex        
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.flexMe li img {
+  width: 300px;
+  height: 300px;
+}
+
+.flexMe li button {
+  border: 3px solid #ff0077;
+  background-color: white;
+  color: #ff0077;
+  padding: 7px;
+}
+
+.flexMe li button:hover {
+  background-color: #ff0077;
+  color: white;
+}
+
+/*About us page*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  text-align: center;
+  font-size: 25px;
+  transition: 0.4s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.open, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+  color: #ff0077;
+}
+
+
+/*footer icons */
+.bluecolor {
+  color: rgb(0,112,192);
+}
+.facebookcolor {
+   color: #3b5998;
+}
+.twittercolor {
+   color: #38A1F3;
+}
+.dribblecolor {
+   color: #ea4c89;
+}
+.instagramcolor {
+  background-image: -webkit-gradient( linear, left top, right top, 
+                     color-stop(0.45, purple), color-stop(0.6, red), color-stop(0.75, pink),
+                     color-stop(0.9, yellow), color-stop(1, blue) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
